@@ -1,0 +1,94 @@
+# PolypPal Configuration File - Example
+# Copy this file and modify the paths for your project
+
+# ============================================================================
+# IMAGE DIRECTORIES
+# ============================================================================
+
+# Directory containing images from first timepoint
+# Images should be named consistently (e.g., sample_001.jpg, sample_002.jpg)
+dir1: "/path/to/your/timepoint1/images"
+
+# Directory containing images from second timepoint
+# Images should have matching names to timepoint1
+dir2: "/path/to/your/timepoint2/images"
+
+# ============================================================================
+# OUTPUT FILES
+# ============================================================================
+
+# Excel file where all measurements will be saved
+# Creates new file or appends to existing
+output_excel: "/path/to/your/output/measurements.xlsx"
+
+# Directory where annotated comparison images will be saved
+# Creates directory if it doesn't exist
+annotated_dir: "/path/to/your/output/annotated_images"
+
+# ============================================================================
+# METADATA (OPTIONAL)
+# ============================================================================
+
+# Excel file with expected object counts per sample
+# Set to null or omit this line to work in manual mode (no expected counts)
+# 
+# Required columns if using metadata:
+#   - sample_id (or Plug): matches image filenames
+#   - original_recruits (or expected_count_t1): expected at timepoint 1
+#   - recruits (or expected_count_t2): expected at timepoint 2
+#   - yield_calc (optional): expected survival/change rate
+#
+metadata_excel: "/path/to/your/metadata.xlsx"
+# For manual mode, use:
+# metadata_excel: null
+
+# ============================================================================
+# PROGRESS TRACKING (OPTIONAL)
+# ============================================================================
+
+# File where progress is saved for resume capability
+# Default: coral_progress.json in current directory
+progress_file: "coral_progress.json"
+
+# ============================================================================
+# CUSTOMIZATION (OPTIONAL)
+# ============================================================================
+
+# Customize status button labels for your specific application
+# These appear as clickable buttons during measurement
+#
+# Default (coral biology):
+button_labels:
+  status_1: "Dead"
+  status_2: "Chimera"
+
+# Other examples:
+#
+# For bacterial cultures:
+# button_labels:
+#   status_1: "Contaminated"
+#   status_2: "Merged"
+#
+# For cell biology:
+# button_labels:
+#   status_1: "Apoptotic"
+#   status_2: "Senescent"
+#
+# For plant studies:
+# button_labels:
+#   status_1: "Wilted"
+#   status_2: "Diseased"
+#
+# For general use:
+# button_labels:
+#   status_1: "Absent"
+#   status_2: "Damaged"
+
+# ============================================================================
+# NOTES
+# ============================================================================
+
+# - All paths can be absolute or relative
+# - Use forward slashes (/) even on Windows, or escape backslashes (\\)
+# - Enclose paths in quotes if they contain spaces
+# - Comments start with #
