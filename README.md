@@ -1,4 +1,4 @@
-# 🪸 PolypPal - Interactive Two-Timepoint Measurement Tool
+# PolypPal - Interactive Two-Timepoint Measurement Tool
 
 **Measure object growth and changes between two timepoints with precision and ease**
 
@@ -6,19 +6,19 @@ PolypPal is a powerful Python-based visual measurement tool for tracking size ch
 
 ![PolypPal Interface](interface_overview.png)
 
-## 🎯 Use Cases
+## Use Cases
 
 PolypPal excels at comparing objects between two images taken at different times:
 
-- **🪸 Marine Biology**: Coral polyp recruitment, growth rates, mortality tracking
-- **🦠 Microbiology**: Bacterial colony growth, inhibition zones
-- **🌱 Botany**: Seedling growth, leaf spot disease progression
-- **🔬 Cell Biology**: Cell culture confluence, spheroid growth
-- **🧪 Material Science**: Crystal growth, corrosion progression
-- **🏥 Medical Imaging**: Lesion size tracking, wound healing
+- ** Marine Biology**: Coral polyp recruitment, growth rates, mortality tracking
+- ** Microbiology**: Bacterial colony growth, inhibition zones
+- ** Botany**: Seedling growth, leaf spot disease progression
+- ** Cell Biology**: Cell culture confluence, spheroid growth
+- ** Material Science**: Crystal growth, corrosion progression
+- ** Medical Imaging**: Lesion size tracking, wound healing
 - **Any application** where you need to measure circular/elliptical objects at two timepoints!
 
-## ✨ Key Features
+## Key Features
 
 ### Interactive & Visual
 - **Point-and-click measurements**: No complex image processing knowledge needed
@@ -61,7 +61,7 @@ pillow
 openpyxl
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Installation
 
@@ -218,7 +218,7 @@ If using metadata mode, create an Excel file with these columns:
 - `yield_calc`: Expected survival rate (0-1)
 - `recruits`: Expected count at timepoint 2
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 **Images don't align properly?**
 - Use `q` and `e` keys to manually rotate image 2
@@ -236,15 +236,15 @@ If using metadata mode, create an Excel file with these columns:
 - Ensure `polyp_pal_logo.png` is in the same directory as `polyp_pal.py`
 - Tool works fine without it!
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 Originally developed for coral recruitment studies in marine biology research. Special thanks to the marine ecology community for feedback and testing.
 
-## 📧 Contact
+## Contact
 
 Questions? Issues? Feature requests?
 - Open an issue on GitHub
