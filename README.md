@@ -4,7 +4,7 @@
 
 PolypPal is a powerful Python-based visual measurement tool for tracking size changes in objects across two timepoints. While originally developed for marine biology research (coral polyp recruit studies), **it's designed to work with any application requiring two-timepoint diameter measurements**.
 
-![PolypPal Interface](interface_ovnierview.png)
+![PolypPal Interface](interface_overview.png)
 
 ## Use Cases
 
