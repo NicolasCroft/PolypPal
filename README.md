@@ -8,11 +8,13 @@ PolypPal is a powerful Python-based visual measurement tool for tracking size ch
 
 ## Use Cases
 
-## Example Study:
+**Example Study:**
 
-Was used to measure coral recruits in this study, which is not yet published:
+Was used to measure coral recruits in this study:
 [Antioxidant-rich microalgal supplementation influences early post-settlement growth and heat-stress responses in Acropora recruits cultured ex situ in Palau
 ](https://github.com/NicolasCroft/PolypPal/blob/main/Example_Study.pdf)
+(The results of the study are being prepared for submission to the journal [Coral Reefs](https://link.springer.com/journal/338).)
+##
 
 PolypPal excels at comparing objects between two images taken at different times:
 
