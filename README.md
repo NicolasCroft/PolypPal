@@ -45,7 +45,7 @@ PolypPal excels at comparing objects between two images taken at different times
 - **Annotated images**: Visual comparison with measurements marked
 - **Configurable via YAML**: No code changes needed for different experiments
 
-## 📋 Requirements
+## Requirements
 
 - Python 3.8 or higher
 - Works on Windows, macOS, and Linux
