@@ -10,12 +10,12 @@ PolypPal is a powerful Python-based visual measurement tool for tracking size ch
 
 PolypPal excels at comparing objects between two images taken at different times:
 
-- ** Marine Biology**: Coral polyp recruitment, growth rates, mortality tracking
-- ** Microbiology**: Bacterial colony growth, inhibition zones
-- ** Botany**: Seedling growth, leaf spot disease progression
-- ** Cell Biology**: Cell culture confluence, spheroid growth
-- ** Material Science**: Crystal growth, corrosion progression
-- ** Medical Imaging**: Lesion size tracking, wound healing
+- **Marine Biology**: Coral polyp recruitment, growth rates, mortality tracking
+- **Microbiology**: Bacterial colony growth, inhibition zones
+- **Botany**: Seedling growth, leaf spot disease progression
+- **Cell Biology**: Cell culture confluence, spheroid growth
+- **Material Science**: Crystal growth, corrosion progression
+- **Medical Imaging**: Lesion size tracking, wound healing
 - **Any application** where you need to measure circular/elliptical objects at two timepoints!
 
 ## Key Features
