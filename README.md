@@ -120,7 +120,7 @@ button_labels:
 python polyp_pal.py config.yaml
 ```
 
-## 🎮 How to Use
+## How to Use
 
 ### Basic Workflow
 
@@ -160,7 +160,7 @@ python polyp_pal.py config.yaml
 - Can exceed expected counts if needed
 - Calculates yield/survival rates
 
-## 📊 Output Files
+## Output Files
 
 ### Excel Spreadsheet
 Columns include:
@@ -180,7 +180,7 @@ Side-by-side comparison images with:
 - Scale information
 - Saved as high-resolution PNG files
 
-## 🔧 Customization Examples
+## Customization Examples
 
 ### For Bacterial Colonies
 ```yaml
@@ -204,7 +204,7 @@ button_labels:
 ```
 
 
-## 📝 Metadata File Format (Optional)
+## Metadata File Format (Optional)
 
 If using metadata mode, create an Excel file with these columns:
 
